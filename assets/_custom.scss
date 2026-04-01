@@ -1,0 +1,58 @@
+/* You can add custom styles here. */
+
+body {
+  background: #0B0B0D;
+  color: #E6E6E6;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+	color: #C1121F;
+	font-weight: bold;
+}
+
+
+a[href], a[role=button] {
+  color: #ff5e5e;
+  cursor: pointer;
+}
+
+
+nav li label > a[role=button] {
+  color: #fff;
+}
+nav li > a[href] {
+  color: #fff;
+}
+
+/* Customize ShortCode */
+.playbook-desc {
+  margin: 2em 0;
+  font-style: italic;
+}
+
+
+.move-title {
+  margin-bottom: -1.8em !important;
+}
+.move-block {
+  border: 1px solid red;
+  border-radius: 1em;
+  background-color: rgba(255,255,255,.1);
+  padding: .5em 1em;
+  padding-top: 2em;
+}
+
+
+.playbook-move {
+  border: 1px solid red;
+  border-radius: 1em;
+  background-color: rgba(255,255,255,.1);
+  padding: .5em 1em;
+}
+.playbook-move.withCheckbox > ul {
+  list-style-type: "☐ ";
+}
+.playbook-move > h3 { margin-top: .5em; }
+.playbook-move > p:last-child { margin-bottom: .5em; }
