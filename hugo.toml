@@ -12,7 +12,7 @@ enableGitInfo = false
   unsafe = true
 
 [markup.tableOfContents]
-  startLevel = 1
+  startLevel = 2
 
 [params]
   BookTheme = 'dark'

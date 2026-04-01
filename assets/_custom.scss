@@ -2,16 +2,35 @@
 
 body {
   background: #0B0B0D;
-  color: #E6E6E6;
+  color: #d6d6d6;
 }
 
 .markdown h1,
 .markdown h2,
-.markdown h3 {
-	color: #C1121F;
+.markdown h3,
+.markdown h4 {
+	color: #E61A28;
 	font-weight: bold;
 }
 
+.markdown h1 {
+  border-bottom: 2px solid #C1121F;
+}
+.markdown h2 {
+  border-color: #C1121F;
+  border-style: solid;
+  border-width: 1px 0 1px 8px;
+  padding: 5px 0 5px 5px;
+}
+
+.markdown > p {
+  text-indent: 2em;
+}
+
+strong {
+  text-shadow: 0 0 4px rgba(255,255,255,0.8);
+  font-weight: bold;
+}
 
 a[href], a[role=button] {
   color: #ff5e5e;
@@ -35,15 +54,17 @@ nav li > a[href] {
 
 .move-title {
   margin-bottom: -1.8em !important;
+  padding-left: 1em;
 }
 .move-block {
-  border: 1px solid red;
+  border: 1px solid rgb(177, 177, 177);
   border-radius: 1em;
   background-color: rgba(255,255,255,.1);
   padding: .5em 1em;
-  padding-top: 2em;
+  padding-top: 2.8em;
 }
-
+.move-block > p:first-child { margin-top: 0; }
+.move-block > *:last-child { margin-bottom: .5em; }
 
 .playbook-move {
   border: 1px solid red;
