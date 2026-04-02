@@ -1,3 +1,5 @@
-<div class="move-block">
+{{- $extraClass := (.Get "class") }}
+
+<div class="move-block {{ $extraClass }}">
   {{ .Inner | markdownify }}
 </div>

@@ -26,17 +26,25 @@ body {
 .markdown > p {
   text-indent: 2em;
 }
+.subContentBlock > p:first-child { margin-top: 0; }
 
 strong {
   text-shadow: 0 0 4px rgba(255,255,255,0.8);
   font-weight: bold;
 }
 
+etag {
+  background-color: hsl(224, 14%, 20%);
+  color: #fff;
+  margin-block: -.125rem;
+  padding: .125rem .375rem;
+  font-size: .85em;
+}
+
 a[href], a[role=button] {
   color: #ff5e5e;
   cursor: pointer;
 }
-
 
 nav li label > a[role=button] {
   color: #fff;
@@ -47,15 +55,32 @@ nav li > a[href] {
 
 /* Customize ShortCode */
 .playbook-desc {
-  margin: 2em 0;
+  margin: 1em 0 2em 0;
+  color: #ffffff96;
   font-style: italic;
 }
-
-
-.move-title {
-  margin-bottom: -1.8em !important;
-  padding-left: 1em;
+.playbook-table table tr td,
+.playbook-table table tr th { border: 0;}
+.playbook-table table tr { border: 1px solid gray;}
+.playbook-table table tr:nth-child(2n) {
+  background: none;
 }
+
+.move-title.withCheckbox {
+  position: relative;
+  margin-bottom: 0.3rem;
+  padding-left: 2em
+}
+.move-title.withCheckbox::before {
+  content: "";
+  width: .8em;
+  height: .8em;
+  border: 1px solid #E61A28;
+  position: absolute;
+  left: 1em;
+  top: 0.05em;
+}
+
 .move-block {
   border: 1px solid rgb(177, 177, 177);
   border-radius: 1em;
@@ -63,17 +88,52 @@ nav li > a[href] {
   padding: .5em 1em;
   padding-top: 2.8em;
 }
-.move-block > p:first-child { margin-top: 0; }
-.move-block > *:last-child { margin-bottom: .5em; }
+.move-block > p:first-child,
+.monster-block > p:first-child{ margin-top: 0; }
+.move-block > *:last-child,
+.monster-block > *:last-child { margin-bottom: .5em; }
+.move-title,
+.monster-title {
+  margin-bottom: -1.8em !important;
+  padding-left: .8em;
+}
 
-.playbook-move {
-  border: 1px solid red;
+.monster-block {
+  border: 1px solid rgb(161, 0, 0);
   border-radius: 1em;
   background-color: rgba(255,255,255,.1);
   padding: .5em 1em;
+  padding-top: 2.8em;
 }
-.playbook-move.withCheckbox > ul {
-  list-style-type: "☐ ";
+.monster-block strong { text-shadow: 0 0 2px rgba(255,255,255,0.6); }
+.monster-block > ul { margin-top: 0; }
+.monster-block > ul > li { margin: 0.4em; }
+.monster-block > p { margin: .2em; }
+.monster-block desc {
+  font-size: .9em;
+  color: #ffffff96;
 }
-.playbook-move > h3 { margin-top: .5em; }
-.playbook-move > p:last-child { margin-bottom: .5em; }
+
+
+
+
+
+.move-block.withCheckbox > ul {
+  padding-left: 1.5rem;
+}
+.withCheckbox > ul {
+  list-style: none;
+}
+.withCheckbox > ul li {
+  position: relative;
+  margin-bottom: 0.3rem;
+}
+.withCheckbox > ul li::before {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1px solid #fff;
+  position: absolute;
+  left: -1.5rem;
+  top: 0.3rem;
+}
