@@ -8,6 +8,12 @@ publishDir = "docs"
 disablePathToLower = true
 enableGitInfo = false
 
+[menu]
+[[menu.after]]
+  name = "🔗 線上角色卡"
+  url = "https://docs.google.com/spreadsheets/d/1zqOnPAGGPb4xLuqJZi_P6a3oQqJGhArCfLquyAuwpMk/edit?usp=sharing"
+  weight = 30
+
 [markup.goldmark.renderer]
   unsafe = true
 

@@ -21,4 +21,3 @@ bookToC: false
 原作連結：<a href="https://karrius.itch.io/beneath-a-cursed-moon" target="_blank">https://karrius.itch.io/beneath-a-cursed-moon</a>
 {{< /hint >}}
 
-*翻譯：Hazmole*
