@@ -1,5 +1,5 @@
 ---
-title: 異怪
+title: 異怪 Abominations
 weight: 3
 ---
 
@@ -20,6 +20,8 @@ weight: 3
 
 ### 意識體血肉化身 {.monster-title}
 {{< monster-block >}} 
+{{< my-img src="images/monster_ConsciousnessMadeFlesh.png" class="drop-shadow float-right" width="250">}}
+
 **類型**：異怪／領主
 
 **傷害承受上限**：15
@@ -90,6 +92,8 @@ weight: 3
 
 ### 魚人 {.monster-title}
 {{< monster-block >}} 
+{{< my-img src="images/monster_Merman.png" class="drop-shadow float-right" width="200">}}
+
 **類型**：異怪／衛士
 
 **傷害承受上限**：8
@@ -156,6 +160,8 @@ weight: 3
 
 ### 深淵子嗣 {.monster-title}
 {{< monster-block >}} 
+{{< my-img src="images/monster_SpawnOfTheDepths.png" class="drop-shadow float-right" width="230">}}
+
 **類型**：異怪／領主
 
 **傷害承受上限**：18
@@ -208,6 +214,8 @@ weight: 3
 
 ### 扭曲崇拜者 {.monster-title}
 {{< monster-block >}} 
+{{< my-img src="images/monster_TwistedWorshipper.png" class="drop-shadow float-right" width="200">}}
+
 **類型**：異怪／衛士
 
 **傷害承受上限**：12

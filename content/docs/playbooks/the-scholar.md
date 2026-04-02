@@ -40,7 +40,7 @@ weight: 8
 
 - 
   <center>
-  {{< my-img src="images/playbook_scholar.png">}}
+  {{< my-img src="images/playbook_scholar.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}

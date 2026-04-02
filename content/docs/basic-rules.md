@@ -1,6 +1,6 @@
 ---
 title: 基本規則
-weight: 2
+weight: 3
 ---
 
 # 基本規則

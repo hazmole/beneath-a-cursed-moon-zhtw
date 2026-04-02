@@ -41,7 +41,7 @@ weight: 3
 
 - 
   <center>
-  {{< my-img src="images/playbook_changeling.png">}}
+  {{< my-img src="images/playbook_changeling.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}

@@ -37,7 +37,7 @@ weight: 4
 
 - 
   <center>
-  {{< my-img src="images/playbook_dreamer.png">}}
+  {{< my-img src="images/playbook_dreamer.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}

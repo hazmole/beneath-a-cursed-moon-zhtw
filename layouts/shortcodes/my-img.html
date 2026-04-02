@@ -1,4 +1,5 @@
 {{- $source := (.Get "src") }}
 {{- $width := (.Get "width") }}
+{{- $class := (.Get "class") }}
 
-<img src="{{ .Site.BaseURL }}/{{ $source }}" style="width:{{ $width }}px; height:auto;" />
+<img src="{{ .Site.BaseURL }}/{{ $source }}" class="{{ $class }}" style="width:{{ $width }}px; height:auto;" />

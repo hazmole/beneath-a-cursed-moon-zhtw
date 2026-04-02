@@ -35,7 +35,7 @@ weight: 2
 
 - 
   <center>
-  {{< my-img src="images/playbook_champion.png">}}
+  {{< my-img src="images/playbook_champion.png" class="drop-shadow" >}}
   </center>
 
 {{% /columns %}}

@@ -38,7 +38,7 @@ weight: 9
 
 - 
   <center>
-  {{< my-img src="images/playbook_scoundrel.png">}}
+  {{< my-img src="images/playbook_scoundrel.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}

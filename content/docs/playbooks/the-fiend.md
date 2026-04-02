@@ -37,7 +37,7 @@ weight: 5
 
 - 
   <center>
-  {{< my-img src="images/playbook_fiend.png">}}
+  {{< my-img src="images/playbook_fiend.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}

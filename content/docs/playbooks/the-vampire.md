@@ -38,7 +38,7 @@ weight: 10
 
 - 
   <center>
-  {{< my-img src="images/playbook_vampire.png">}}
+  {{< my-img src="images/playbook_vampire.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}

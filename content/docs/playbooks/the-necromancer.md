@@ -37,7 +37,7 @@ weight: 7
 
 - 
   <center>
-  {{< my-img src="images/playbook_necromancer.png">}}
+  {{< my-img src="images/playbook_necromancer.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}

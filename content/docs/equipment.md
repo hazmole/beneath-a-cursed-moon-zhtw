@@ -1,6 +1,6 @@
 ---
 title: 裝備與道具
-weight: 5
+weight: 6
 ---
 
 # 裝備列表

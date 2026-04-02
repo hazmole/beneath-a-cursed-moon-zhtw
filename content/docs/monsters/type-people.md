@@ -1,5 +1,5 @@
 ---
-title: 人類
+title: 人類 People
 weight: 2
 ---
 
@@ -27,6 +27,8 @@ weight: 2
 
 ### 獵人 {.monster-title}
 {{< monster-block >}} 
+{{< my-img src="images/monster_Hunter.png" class="drop-shadow float-right" width="210">}}
+
 **類型**：人類／衛士
 
 **傷害承受上限**：10

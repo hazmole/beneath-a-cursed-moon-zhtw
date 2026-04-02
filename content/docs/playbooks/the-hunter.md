@@ -39,7 +39,7 @@ weight: 6
 
 - 
   <center>
-  {{< my-img src="images/playbook_hunter.png">}}
+  {{< my-img src="images/playbook_hunter.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}

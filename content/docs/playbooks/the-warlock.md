@@ -36,7 +36,7 @@ weight: 11
 
 - 
   <center>
-  {{< my-img src="images/playbook_warlock.png">}}
+  {{< my-img src="images/playbook_warlock.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}

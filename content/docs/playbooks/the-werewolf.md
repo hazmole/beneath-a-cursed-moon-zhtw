@@ -39,7 +39,7 @@ weight: 12
 
 - 
   <center>
-  {{< my-img src="images/playbook_werewolf.png">}}
+  {{< my-img src="images/playbook_werewolf.png" class="drop-shadow">}}
   </center>
 
 {{% /columns %}}
